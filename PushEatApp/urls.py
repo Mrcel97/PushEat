@@ -19,5 +19,5 @@ from food.views import food_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^foodApi/', food_view, name='food_view'),
+    url(r'^api/', food_view, name='food_view'),
 ]
