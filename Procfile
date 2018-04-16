@@ -1,1 +1,1 @@
-web: gunicorn PushEat.wsgi:PushEatApp --log-file -
+web: gunicorn PushEatApp.wsgi --log-file -
