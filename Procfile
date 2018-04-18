@@ -1,0 +1,1 @@
+web: gunicorn pusheatdev.wsgi --log-file -
