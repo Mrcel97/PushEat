@@ -50,7 +50,7 @@ We can then connect, if all goes ok to our app with:
 
 If we run into errors with hosts not in ALLOWED_HOSTS, we can fix it by editing settings.py, and adding the suggested host in the error page to ALLOWED_HOSTS variable.
 
-    ALLOWED_HOSTS = ['PushEat.herokuapp.com']
+    ALLOWED_HOSTS = ['localhost','pusheat.herokuapp.com','127.0.0.1']
     
 Furthermore, we have to introduce the following commands:
 
