@@ -25,7 +25,7 @@ SECRET_KEY = 'meb$16zernb2a_^_en#_=gsv&uzr)=x3_jzd@5##@jio2+j)@5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'pusheat.herokuapp.com']
 
 
 # Application definition
