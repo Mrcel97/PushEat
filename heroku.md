@@ -88,7 +88,7 @@ And to requirements.txt add:
 
     whitenoise
 
-Next you have to send the files to heroku again:
+Finally, you have to send the files to heroku again:
 
     git add PushEatApp/settings.py
     git add requirements.txt
