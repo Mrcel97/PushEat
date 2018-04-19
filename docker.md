@@ -52,7 +52,7 @@ Take into account that this file is in YAML format, so spaces and tabs mean some
 
 Once you have this compose file, you can build it with:
 
-docker-compose build
+    docker-compose build
 
 And, when built, we can start the orchestration with:
 

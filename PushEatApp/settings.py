@@ -25,7 +25,8 @@ SECRET_KEY = 'meb$16zernb2a_^_en#_=gsv&uzr)=x3_jzd@5##@jio2+j)@5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1:8000', 'pusheat.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'pusheat.herokuapp.com', '127.0.0.1']
+
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'food',
     'PushEatApp'
 ]
 
