@@ -1,6 +1,6 @@
-#Docker deployment instructions
+# Docker deployment instructions  
 
-#####Dockerfile
+##### Dockerfile  
 Once requirements.txt is OK, we'll create the Dockerfile for our django application container.
 
 Create a file called: Dockerfile (Case-Sensitive) with:
@@ -29,7 +29,7 @@ Then we can test that it builds correctly:
 
 If it builds OK we can go to the next step, otherwise, we solve the building errors.
 
-#####Orchestrate with docker-compose
+##### Orchestrate with docker-compose  
     
 To create an orchestration, that is, a set of different containers that will compose our application, 
 we first create a file named docker-compose.yml on current (application) dir:
