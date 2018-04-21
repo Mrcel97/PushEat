@@ -26,18 +26,23 @@ Authenticates and authorises computers and users to access resources within the 
 Stores network users' data files.
 
 ### Connections and dependences amongst them.
-1. Web server + database server: 
-2. Web server will work with our database server to get data stored on it to handle the users requests.
-3. Domain server + Database server:
+1. Web server + database server:  
+Web server will work with our database server to get data stored on it to handle the users requests.
+2. Domain server + Database server:  
 Our domain server will need to access to the database server to get the necessary data to authenticate our users correctly.
-4. Application server + web server + database server + communications server + domain server + file server: Application server will work with our web server (host) and with the database server to store or extract information. Also with all the other servers, because the application will use all the server to work correctly and to achieve all the implemented functionalities. 
-5. Database server + File server:  File server will store temporal user generated information and the important information that user generates will be stored on the database server.
+3. Application server + web server + database server + communications server + domain server + file server:  
+Application server will work with our web server (host) and with the database server to store or extract information. Also with all the other servers, because the application will use all the server to work correctly and to achieve all the implemented functionalities. 
+4. Database server + File server:   
+File server will store temporal user generated information and the important information that user generates will be stored on the database server.
 
 ### State which are required and which are optional.
 
 1. Database server (required)
 2. Web server (required)
 3. Application server (required)
-4. Communication server (optional): Our server don’t require a communication system if we don’t implement the communication though users. Instead of that we can give their personal information (email, phone, fax, etc) and users will contact using 3rd applications.
-5. Domain server (optional): Django can support this functionality.
-6. File server (optional): Django can support this functionality.
+4. Communication server (optional):  
+Our server don’t require a communication system if we don’t implement the communication though users. Instead of that we can give their personal information (email, phone, fax, etc) and users will contact using 3rd applications.
+5. Domain server (optional):  
+Django can support this functionality.
+6. File server (optional):  
+Django can support this functionality.
