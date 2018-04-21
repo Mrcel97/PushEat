@@ -41,7 +41,7 @@ File server will store temporal user generated information and the important inf
 2. Web server (required)
 3. Application server (required)
 4. Communication server (optional):  
-Our server don’t require a communication system if we don’t implement the communication though users. Instead of that we can give their personal information (email, phone, fax, etc) and users will contact using 3rd applications.
+Our server don’t require a communication system if we don’t implement the communication through users. Instead of that we can give their personal information (email, phone, fax, etc) and users will contact using 3rd applications.
 5. Domain server (optional):  
 Django can support this functionality.
 6. File server (optional):  
