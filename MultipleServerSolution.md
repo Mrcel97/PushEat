@@ -12,12 +12,18 @@ To do virtual hosting of multiple servers (specified below), we may use nginx.
 
 
 ### Number and function of servers.
-1. Database server: Store web application information.
-2. Web server: To handle the requests of our users.
-3. Application server: Shares network-enabled versions of common application software and eliminates the need for software to be installed on each workstation
-4. Communications server: Handles many common communications functions for the network, such as e-mail, fax, remote access, firewalls or Internet services
-5. Domain server: Authenticates and authorises computers and users to access resources within the logical domain.
-6. File server: Stores network users' data files.
+1. Database server:  
+Store web application information.
+2. Web server:  
+To handle the requests of our users.
+3. Application server:  
+Shares network-enabled versions of common application software and eliminates the need for software to be installed on each workstation
+4. Communications server:  
+Handles many common communications functions for the network, such as e-mail, fax, remote access, firewalls or Internet services
+5. Domain server:  
+Authenticates and authorises computers and users to access resources within the logical domain.
+6. File server:  
+Stores network users' data files.
 
 ### Connections and dependences amongst them.
 1. Web server + database server: 
