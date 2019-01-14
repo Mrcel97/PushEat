@@ -34,7 +34,7 @@ pyOpenSSL==17.5.0
 pytz==2018.3
 pyyaml>=4.2b1
 rauth==0.7.3
-requests==2.18.4
+requests>=2.20.0
 six==1.10.0
 texttable==0.8.1
 unity-lens-photos==1.0
