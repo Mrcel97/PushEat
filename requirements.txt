@@ -7,7 +7,7 @@ cffi==1.11.5
 chardet==3.0.4
 cryptography==2.3
 dj-database-url==0.5.0
-Django==1.11.15
+django>=1.11.18
 django-countries==5.2
 docker-compose==1.8.0
 docker-py==1.9.0
